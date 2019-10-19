@@ -380,7 +380,7 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: solarized
   # Add copy button on codeblock
   copy_button:
     enable: false
@@ -497,7 +497,7 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification:
+google_site_verification: M9hhHD6WhTmBQTq5lErznDy5gbtgw_jHAAqll4QK1K0
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
@@ -526,16 +526,16 @@ baidu_push: false
 
 # Math Formulas Render Support
 math:
-  enable: false
+  enable: true
 
   # Default (true) will load mathjax / katex script on demand.
   # That is it only render those page which has `mathjax: true` in Front-matter.
   # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.
-  per_page: true
+  per_page: false
 
   # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.
   mathjax:
-    enable: false
+    enable: true
     # See: https://mhchem.github.io/MathJax-mhchem/
     mhchem: false
 
@@ -889,7 +889,7 @@ pdf:
 
 # Mermaid tag
 mermaid:
-  enable: false
+  enable: true
   # Available themes: default | dark | forest | neutral
   theme: forest
 
@@ -1073,7 +1073,8 @@ vendors:
   # Example:
   # mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
   # mermaid: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js
-  mermaid:
+  # mermaid:
+  mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
 
   # Internal version: 1.2.1
   # Example:
@@ -1120,3 +1121,8 @@ vendors:
 css: css
 js: js
 images: images
+
+# flowchart:
+  # raphael:   # optional, the source url of raphael.js
+  # flowchart: # optional, the source url of flowchart.js
+  # options: # options used for `drawSVG`
