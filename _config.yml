@@ -131,7 +131,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
+  rss: /atom.xml || rss
   #commonweal: /404/ || heartbeat
 
 # Enable / Disable menu icons / item badges.
